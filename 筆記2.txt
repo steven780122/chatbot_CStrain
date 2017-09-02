@@ -11,3 +11,30 @@
 4.安裝 Nodejs
 
 (也需要facebook for developer)
+
+
+
+5. 步驟0. Fork 專案
+
+在這個步驟裡，我們要用一個已經寫好的專案，點此連結，並按下 Fork 將這個專案複製到自己的 github 帳號底下。 
+
+
+6. 在Facebook Developer頁要在右上角建立應用程式ex, chatbot 92, 進入後選擇messenger服務
+7. 選擇Token generator (前提是要有粉絲專業喔!!!!)，我選擇上次所見的粉絲專頁
+8. 選擇Token後貼到fork下來的facebook-messenger-echo-bot的const FACEBOOK_ACCESS_TOKEN = 'Your_Facebook_Access_Token'
+
+9. Webhook:  FB會把所要訂閱的訊息都給所設定的webhook，webhook收到就可以對應處理，webhook要輸入一個網誌，
+(接下來該網址該網址就是由Heroku提供)
+10. 到HEROKU新增專案，然後Deploy選擇gitHub 部屬，登入github帳密後，搜尋榜定的專案: 
+此即為 steven780122/facebook-messenger-echo-bot，connect後多2個設定，
+1(1)自動部屬: 部屬上去設定之後，是否每次修改push至github後就自動部屬!!!
+(2)手動部屬: 第一次部屬還是要手動部屬，所以還是要設定!  (設定後就可以看到他自部屬中囉!!)
+             可以從build log展開最後看到她部屬的網址!!!
+
+
+
+
+
+
+
+
