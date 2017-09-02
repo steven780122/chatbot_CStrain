@@ -37,9 +37,15 @@
 把網址貼到fb webhook網址
 verify token填上，剛專案裡面那個自設的verify token, ex:chatbot92_steven_Verify_Token
 全勾選所有的事鑑訂閱(從FB丟到heroku的事件)
-另外需要訂閱粉絲專業!
+另外需要訂閱webhook的粉絲專業!
 
+這時候到跟上次設定的粉絲專業對話，就會發現會回傳東西了!!   但是上次設定的chatfuel也會回喔!
 
+12.
+講Code:
+node_module:   在部屬方heroku會自己裝，不用push
+
+先跑起來吧:   先npm install, 另外再node app.js(該code檔名)，可以在localhost:3000看到回應囉
 
 
 
