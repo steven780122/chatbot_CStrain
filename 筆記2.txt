@@ -25,11 +25,19 @@
 
 9. Webhook:  FB會把所要訂閱的訊息都給所設定的webhook，webhook收到就可以對應處理，webhook要輸入一個網誌，
 (接下來該網址該網址就是由Heroku提供)
-10. 到HEROKU新增專案，然後Deploy選擇gitHub 部屬，登入github帳密後，搜尋榜定的專案: 
+10. 
+到HEROKU新增專案，然後Deploy選擇gitHub 部屬，登入github帳密後，搜尋榜定的專案: 
 此即為 steven780122/facebook-messenger-echo-bot，connect後多2個設定，
-1(1)自動部屬: 部屬上去設定之後，是否每次修改push至github後就自動部屬!!!
+(1)自動部屬: 部屬上去設定之後，是否每次修改push至github後就自動部屬!!!
 (2)手動部屬: 第一次部屬還是要手動部屬，所以還是要設定!  (設定後就可以看到他自部屬中囉!!)
              可以從build log展開最後看到她部屬的網址!!!
+
+11. 
+回到FB webhook設定頁
+把網址貼到fb webhook網址
+verify token填上，剛專案裡面那個自設的verify token, ex:chatbot92_steven_Verify_Token
+全勾選所有的事鑑訂閱(從FB丟到heroku的事件)
+另外需要訂閱粉絲專業!
 
 
 
