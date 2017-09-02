@@ -47,8 +47,19 @@ node_module:   在部屬方heroku會自己裝，不用push
 
 先跑起來吧:   先npm install, 另外再node app.js(該code檔名)，可以在localhost:3000看到回應囉
 
+可以先看FB的文件:https://developers.facebook.com/docs/messenger-platform/webhook/?locale=zh_TW
+http://localhost:3000/hi?hub.verify_token=chatbot92_steven_Verify_Token&hub.challenge
 
+if (req.query['hub.verify_token'] === VERIFY_TOKEN) {    //如果認證對的  
+        res.send(req.query['hub.challenge'])          // 回傳hub.challenge的值，其實可發現若一律回傳這個就不用管認證了
+    } else {
+        res.send('Invalid verify token')     
+    }
+(我問: 那幹嘛還要多verify token，他說他不知道XD 因為line和telegram都沒這部，直接webhook放上即可 )
 
+SPEC: https://developers.facebook.com/docs/messenger-platform/reference/webhook-events/message
+
+比較好的寫法:  看照片:  記state
 
 
 
