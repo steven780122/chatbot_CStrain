@@ -1,0 +1,13 @@
+將 Facebook Chatbot 發佈到 Heroku
+事前準備
+
+1.先註冊 Github 帳號
+用來管理專案
+2.先註冊 Heroku 帳號   (可以把上次的Express上傳)
+用運行專案運的 PaaS 服務
+3.安裝 Git
+用來將程式碼從 github 載下來的工具
+在這裡可以找到用 GUI 介面使用 git 的應用程式
+4.安裝 Nodejs
+
+(也需要facebook for developer)
