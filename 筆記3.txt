@@ -1,0 +1,12 @@
+LINE chatbot
+
+1. 先到LINE Business center申請商用帳號:
+申請完後，選擇Messanger API類別
+OK後，前往LINE@MANAGER
+
+2. Messenger API 啟用後，就不能再使用LINE@商用帳號真人對話功能:
+Enabling the API is a permanent action, and you will no longer be able to use the features listed below.
+1-on-1 Chat 
+LINE@ App
+
+3. 開啟API後，開啟webhook (一定要打開!，我問: 那幹嘛還要有不開的選項?  郭: 不知道，真的很奇怪，因為一定要)
